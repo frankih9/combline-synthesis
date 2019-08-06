@@ -1,4 +1,4 @@
-# combline-synthesis
+# Combline-Synthesis
 Synthesis of combline bandpass filters based on Wenzel's paper.  
 https://ieeexplore.ieee.org/abstract/document/1127609  
 Z variable synthesis procedure is demonstrated in the python code and jupyter notebook.  
@@ -7,4 +7,4 @@ Inclusion of physical realization procedure will be attempted in the future.
 
 Wnzl_Comb_Ex.py  
 Wnzl_Funcs.py  
-https://nbviewer.jupyter.org/github/frankih9/combline-synthesis/blob/master/combline%20synthesis.ipynb
+[read notebook!](https://nbviewer.jupyter.org/github/frankih9/combline-synthesis/blob/master/combline%20synthesis.ipynb)
