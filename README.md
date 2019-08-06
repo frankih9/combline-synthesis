@@ -6,4 +6,5 @@ Wenzel's paper does not go into the details of the physical realization.
 Inclusion of physical realization procedure will be attempted in the future. 
 
 Wnzl_Comb_Ex.py  
-Wnzl_Funcs.py
+Wnzl_Funcs.py  
+https://nbviewer.jupyter.org/github/frankih9/combline-synthesis/blob/master/combline%20synthesis.ipynb
