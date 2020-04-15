@@ -6,5 +6,6 @@ Wenzel's paper does not go into the details of the physical realization.
 Inclusion of physical realization procedure will be attempted in the future. 
 
 Wnzl_Comb_Ex.py  
-Wnzl_Funcs.py  
-[read notebook!](https://nbviewer.jupyter.org/github/frankih9/combline-synthesis/blob/master/combline%20synthesis.ipynb)
+Wnzl_Funcs.py    
+[read notebook! (nbviewer)](https://nbviewer.jupyter.org/github/frankih9/combline-synthesis/blob/master/combline%20synthesis.ipynb)  
+[read notebook! (colab)](https://colab.research.google.com/github/frankih9/combline-synthesis/blob/master/combline%20synthesis.ipynb)
