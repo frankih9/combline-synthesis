@@ -11,13 +11,16 @@ def prm(order):
     "Synthesis of Combline and Capacitively Loaded Inter... of Arbitrary Bandwidth"         
     """
     if order==1:
-        return ['p0','q0','r0']
+        return [['p',0], ['q',0], ['r',0]]
     temp = []
     perm_list = prm(order-1)
     for item in perm_list:
-        temp.append('p' + str(order-1) + item)
-        temp.append('q' + str(order-1) + item)
-        temp.append('r' + str(order-1) + item)        
+        #print('item',item)
+        for pqr in ('p', 'q', 'r'):
+            item_new = item.copy()
+            item_new.insert(0, order-1)
+            item_new.insert(0, pqr)
+            temp.append(item_new)      
     return temp
 
 
@@ -401,9 +404,9 @@ def SAPLad(E, First_Element = 'shnt'):
 
 def Eval_Elements(cap_array, ind_array, w, terms=np.array([1,1])):
     '''
-    Outputs the S21 and S11 in dB given abs(K(lambda))^2
-    FnF: numerator of abs(K(lambda))^2
-    PnF: denominator of abs(K(lambda))^2
+    Outputs the S21 and S11 in dB 
+    cap_array: shunt and series capacitor values
+    ind_array: shunt and series inductor values
     w: vector of omega for evaluation (rad)
     '''
            
